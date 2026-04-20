@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sagarmatha Hotel — Luxury at the Roof of the World</title>
+  <meta name="keywords" content="Sagarmatha Hotel, luxury hotel Kathmandu, Nepal hotel, five star hotel Nepal">
+  <meta name="description" content="Sagarmatha Hotel — A premier luxury retreat in the heart of Kathmandu, Nepal.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Jost:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/sagarmatha.css">
+</head>
+<body>
+
+<div class="sh-loader" id="shLoader">
+  <div class="sh-loader-logo">SH</div>
+  <div class="sh-loader-bar"></div>
+</div>
+
+<div class="sh-mobile-nav" id="mobileNav">
+  <button class="sh-mobile-close" id="mobileClose"><i class="fa fa-times"></i></button>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="room.html">Rooms</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="blog.html">Journal</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<nav class="sh-nav" id="shNav">
+  <div class="sh-nav-inner">
+    <a href="index.html" class="sh-logo">
+      <div class="sh-logo-icon">S</div>
+      <div class="sh-logo-text">
+        <span class="sh-logo-name">Sagarmatha</span>
+        <span class="sh-logo-tagline">Hotel &amp; Resort — Kathmandu</span>
+      </div>
+    </a>
+    <ul class="sh-nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="room.html">Rooms</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="blog.html">Journal</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="room.html" class="sh-nav-cta">Reserve Now</a></li>
+    </ul>
+    <button class="sh-hamburger" id="menuBtn">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<section class="sh-hero" id="hero">
+  <div class="sh-hero-slides">
+    <div class="sh-hero-slide active" id="slide0"><img src="images/banner1.jpg" alt="Sagarmatha Hotel"></div>
+    <div class="sh-hero-slide" id="slide1"><img src="images/banner2.jpg" alt="Luxury Suite"></div>
+    <div class="sh-hero-slide" id="slide2"><img src="images/banner3.jpg" alt="Himalayan Views"></div>
+  </div>
+  <div class="sh-hero-overlay"></div>
+  <div class="sh-hero-content">
+    <div class="sh-hero-eyebrow">
+      <div class="sh-hero-eyebrow-line"></div>
+      <span>Established 1966 &middot; Kathmandu, Nepal</span>
+    </div>
+    <h1 class="sh-hero-title">Where Luxury<br>Meets the <em>Himalayas</em></h1>
+    <p class="sh-hero-subtitle">Nestled amid 12 acres of manicured landscape with uninterrupted views of the world's highest peaks. An experience beyond the ordinary.</p>
+    <div class="sh-hero-actions">
+      <a href="room.html" class="sh-btn-primary"><i class="fa fa-concierge-bell"></i> Reserve a Room</a>
+      <a href="about.html" class="sh-btn-secondary"><i class="fa fa-arrow-right"></i> Discover More</a>
+    </div>
+  </div>
+  <div class="sh-hero-indicators">
+    <button class="sh-indicator active" data-slide="0"></button>
+    <button class="sh-indicator" data-slide="1"></button>
+    <button class="sh-indicator" data-slide="2"></button>
+  </div>
+</section>
+
+<div class="sh-booking-bar">
+  <div class="sh-booking-inner">
+    <div class="sh-booking-field">
+      <label>Check In</label>
+      <input type="text" id="checkIn" placeholder="Select date" readonly>
+    </div>
+    <div class="sh-booking-divider"></div>
+    <div class="sh-booking-field">
+      <label>Check Out</label>
+      <input type="text" id="checkOut" placeholder="Select date" readonly>
+    </div>
+    <div class="sh-booking-divider"></div>
+    <div class="sh-booking-field">
+      <label>Guests</label>
+      <select><option>1 Adult</option><option selected>2 Adults</option><option>2 Adults, 1 Child</option><option>3 Adults</option></select>
+    </div>
+    <div class="sh-booking-divider"></div>
+    <div class="sh-booking-field">
+      <label>Room Type</label>
+      <select><option>All Rooms</option><option>Deluxe Room</option><option>Superior Suite</option><option>Himalayan Suite</option><option>Presidential Suite</option></select>
+    </div>
+    <div class="sh-booking-divider"></div>
+    <div><button class="sh-btn-primary" style="white-space:nowrap;padding:14px 32px;"><i class="fa fa-search"></i> Check Availability</button></div>
+  </div>
+</div>
+
+<section class="sh-section" id="about">
+  <div class="container">
+    <div class="sh-about-grid">
+      <div class="sh-about-img-wrap sh-fade-up">
+        <img class="sh-about-img-main" src="images/about.jpg" alt="Sagarmatha Hotel">
+        <img class="sh-about-img-accent" src="images/gallery1.jpg" alt="Hotel Garden">
+        <div class="sh-about-badge"><span>5&#9733;</span><span>Luxury Hotel</span></div>
+      </div>
+      <div class="sh-fade-up">
+        <div class="sh-section-header">
+          <div class="sh-label">Our Story</div>
+          <h2 class="sh-section-title">A Legacy of<br><em>Nepali Hospitality</em></h2>
+          <div class="sh-divider"></div>
+          <p class="sh-section-desc">Sagarmatha Hotel is a premier 5-star retreat set amid 12 lush acres overlooking the eternal Himalayas. Since 1966, we have been the landmark of elegance and cultural heritage in Kathmandu — the preferred residence of heads of state, dignitaries, and discerning travellers from around the world.</p>
+          <p class="sh-section-desc" style="margin-top:12px;">Our 285 beautifully appointed heritage and modern rooms blend authentic Nepali architecture with contemporary luxury, creating an atmosphere unlike anywhere else on Earth.</p>
+        </div>
+        <a href="about.html" class="sh-btn-primary"><i class="fa fa-arrow-right"></i> Our Full Story</a>
+        <div class="sh-about-stats">
+          <div class="sh-stat sh-fade-up"><div class="sh-stat-num">285</div><div class="sh-stat-label">Luxury Rooms &amp; Suites</div></div>
+          <div class="sh-stat sh-fade-up"><div class="sh-stat-num">58+</div><div class="sh-stat-label">Years of Excellence</div></div>
+          <div class="sh-stat sh-fade-up"><div class="sh-stat-num">12</div><div class="sh-stat-label">Acres of Green Landscape</div></div>
+          <div class="sh-stat sh-fade-up"><div class="sh-stat-num">4.9&#9733;</div><div class="sh-stat-label">Average Guest Rating</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="sh-features-grid">
+  <div class="sh-feature sh-fade-up"><div class="sh-feature-icon"><i class="fa fa-utensils"></i></div><div class="sh-feature-title">Fine Dining</div><p>Six curated restaurants offering Nepali, Chinese, Indian and international cuisines crafted by world-class chefs.</p></div>
+  <div class="sh-feature sh-fade-up"><div class="sh-feature-icon"><i class="fa fa-spa"></i></div><div class="sh-feature-title">Tranquility Spa</div><p>A sanctuary of wellness offering ancient Ayurvedic therapies, body treatments, and meditation retreats.</p></div>
+  <div class="sh-feature sh-fade-up"><div class="sh-feature-icon"><i class="fa fa-mountain"></i></div><div class="sh-feature-title">Himalayan Views</div><p>Wake up to panoramic vistas of the world's most iconic mountain range from your private room or suite.</p></div>
+  <div class="sh-feature sh-fade-up"><div class="sh-feature-icon"><i class="fa fa-star"></i></div><div class="sh-feature-title">5-Star Service</div><p>Our dedicated team of 400+ professionals ensures every moment of your stay exceeds all expectations.</p></div>
+</div>
+
+<section class="sh-section sh-section-alt">
+  <div class="container">
+    <div class="sh-section-header centered sh-fade-up">
+      <div class="sh-label" style="justify-content:center;">Hotel Services</div>
+      <h2 class="sh-section-title">Curated <em>Experiences</em></h2>
+      <div class="sh-divider centered"></div>
+      <p class="sh-section-desc centered">Every detail thoughtfully designed to create moments you will treasure for a lifetime.</p>
+    </div>
+  </div>
+  <div class="sh-services-grid">
+    <div class="sh-service-card sh-fade-up"><img src="images/room1.jpg" alt="Luxury Bedrooms"><div class="sh-service-card-overlay"><div class="sh-service-num">01</div><div class="sh-service-title">Luxury Bedrooms</div><div class="sh-service-desc">Elegantly appointed rooms featuring premium Himalayan cotton bedding, mountain views, and modern amenities.</div><a href="room.html" class="sh-service-link">Explore Rooms <i class="fa fa-arrow-right"></i></a></div></div>
+    <div class="sh-service-card sh-fade-up"><img src="images/room2.jpg" alt="Culinary"><div class="sh-service-card-overlay"><div class="sh-service-num">02</div><div class="sh-service-title">Culinary Artistry</div><div class="sh-service-desc">From authentic Dal Bhat to contemporary fusion, our chefs celebrate Nepal's rich culinary heritage.</div><a href="about.html" class="sh-service-link">Discover Dining <i class="fa fa-arrow-right"></i></a></div></div>
+    <div class="sh-service-card sh-fade-up"><img src="images/room3.jpg" alt="Spa"><div class="sh-service-card-overlay"><div class="sh-service-num">03</div><div class="sh-service-title">Wellness &amp; Spa</div><div class="sh-service-desc">The Tranquility Spa blends ancient Nepali healing rituals with modern techniques for total rejuvenation.</div><a href="about.html" class="sh-service-link">Wellness Journey <i class="fa fa-arrow-right"></i></a></div></div>
+    <div class="sh-service-card sh-fade-up"><img src="images/room4.jpg" alt="Meals"><div class="sh-service-card-overlay"><div class="sh-service-num">04</div><div class="sh-service-title">Complimentary Meals</div><div class="sh-service-desc">Lavish complimentary breakfasts and select in-house dining as part of our signature hospitality packages.</div><a href="room.html" class="sh-service-link">View Packages <i class="fa fa-arrow-right"></i></a></div></div>
+    <div class="sh-service-card sh-fade-up"><img src="images/room5.jpg" alt="Fitness"><div class="sh-service-card-overlay"><div class="sh-service-num">05</div><div class="sh-service-title">Fitness &amp; Recreation</div><div class="sh-service-desc">Fitness centre, outdoor swimming pool, lawn tennis, and casino — leisure tailored to your every mood.</div><a href="about.html" class="sh-service-link">Explore Recreation <i class="fa fa-arrow-right"></i></a></div></div>
+    <div class="sh-service-card sh-fade-up"><img src="images/room6.jpg" alt="Events"><div class="sh-service-card-overlay"><div class="sh-service-num">06</div><div class="sh-service-title">Events &amp; Conferences</div><div class="sh-service-desc">Versatile meeting and banquet spaces for corporate summits, weddings, and grand celebrations.</div><a href="contact.html" class="sh-service-link">Plan Your Event <i class="fa fa-arrow-right"></i></a></div></div>
+  </div>
+</section>
+
+<section class="sh-section">
+  <div class="container">
+    <div class="sh-section-header sh-fade-up" style="display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:20px;">
+      <div><div class="sh-label">Visual Journey</div><h2 class="sh-section-title">Gallery of <em>Moments</em></h2></div>
+      <a href="gallery.html" class="sh-btn-secondary">View Full Gallery <i class="fa fa-arrow-right"></i></a>
+    </div>
+    <div class="sh-gallery-masonry">
+      <div class="sh-gallery-item sh-fade-up"><img src="images/gallery1.jpg" alt="View"><div class="sh-gallery-overlay"><span><i class="fa fa-plus"></i></span></div></div>
+      <div class="sh-gallery-item sh-fade-up"><img src="images/gallery2.jpg" alt="Room"><div class="sh-gallery-overlay"><span><i class="fa fa-plus"></i></span></div></div>
+      <div class="sh-gallery-item sh-fade-up"><img src="images/gallery3.jpg" alt="Dining"><div class="sh-gallery-overlay"><span><i class="fa fa-plus"></i></span></div></div>
+      <div class="sh-gallery-item sh-fade-up"><img src="images/gallery4.jpg" alt="Pool"><div class="sh-gallery-overlay"><span><i class="fa fa-plus"></i></span></div></div>
+      <div class="sh-gallery-item sh-fade-up"><img src="images/gallery5.jpg" alt="Spa"><div class="sh-gallery-overlay"><span><i class="fa fa-plus"></i></span></div></div>
+      <div class="sh-gallery-item sh-fade-up"><img src="images/gallery6.jpg" alt="Garden"><div class="sh-gallery-overlay"><span><i class="fa fa-plus"></i></span></div></div>
+      <div class="sh-gallery-item sh-fade-up"><img src="images/gallery7.jpg" alt="Suite"><div class="sh-gallery-overlay"><span><i class="fa fa-plus"></i></span></div></div>
+      <div class="sh-gallery-item sh-fade-up"><img src="images/gallery8.jpg" alt="Lobby"><div class="sh-gallery-overlay"><span><i class="fa fa-plus"></i></span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sh-section sh-section-alt">
+  <div class="container">
+    <div class="sh-section-header sh-fade-up" style="display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:20px;">
+      <div><div class="sh-label">Stories &amp; Insights</div><h2 class="sh-section-title">The Sagarmatha <em>Journal</em></h2></div>
+      <a href="blog.html" class="sh-btn-secondary">Read All Articles <i class="fa fa-arrow-right"></i></a>
+    </div>
+    <div class="sh-blog-grid">
+      <div class="sh-blog-card sh-fade-up">
+        <div class="sh-blog-img"><img src="images/blog1.jpg" alt="Blog 1"></div>
+        <div class="sh-blog-body"><div class="sh-blog-cat">Accommodation &amp; Recreation</div><h3 class="sh-blog-title">The Art of Luxury Living at Sagarmatha</h3><p class="sh-blog-excerpt">Discover how our team curates every detail — from hand-selected linens to personalised turndown rituals — to craft a stay that lingers in memory long after departure.</p></div>
+        <div class="sh-blog-meta"><span>April 2026</span><a href="blog.html" class="sh-blog-read">Read More <i class="fa fa-arrow-right"></i></a></div>
+      </div>
+      <div class="sh-blog-card sh-fade-up">
+        <div class="sh-blog-img"><img src="images/blog2.jpg" alt="Blog 2"></div>
+        <div class="sh-blog-body"><div class="sh-blog-cat">Design &amp; Interiors</div><h3 class="sh-blog-title">Inside the Himalayan Presidential Suite</h3><p class="sh-blog-excerpt">A private sanctuary perched above Kathmandu — floor-to-ceiling windows frame the Annapurna range, while Newari craftsmanship adorns every corner of this exceptional suite.</p></div>
+        <div class="sh-blog-meta"><span>March 2026</span><a href="blog.html" class="sh-blog-read">Read More <i class="fa fa-arrow-right"></i></a></div>
+      </div>
+      <div class="sh-blog-card sh-fade-up">
+        <div class="sh-blog-img"><img src="images/blog3.jpg" alt="Blog 3"></div>
+        <div class="sh-blog-body"><div class="sh-blog-cat">Culture &amp; Heritage</div><h3 class="sh-blog-title">Preserving Nepal's Heritage Through Hospitality</h3><p class="sh-blog-excerpt">Since 1966, Sagarmatha Hotel has been more than a place to stay — it is a living monument to Nepali culture, architecture, and the enduring spirit of the Himalayas.</p></div>
+        <div class="sh-blog-meta"><span>February 2026</span><a href="blog.html" class="sh-blog-read">Read More <i class="fa fa-arrow-right"></i></a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sh-section">
+  <div class="container">
+    <div class="sh-section-header centered sh-fade-up">
+      <div class="sh-label" style="justify-content:center;">Get in Touch</div>
+      <h2 class="sh-section-title">We'd Love to <em>Hear From You</em></h2>
+      <div class="sh-divider centered"></div>
+    </div>
+    <div class="sh-contact-grid">
+      <div>
+        <div class="sh-contact-item sh-fade-up"><div class="sh-contact-icon"><i class="fa fa-map-marker-alt"></i></div><div><div class="sh-contact-item-title">Our Location</div><div class="sh-contact-item-val">Tahachal, Kathmandu 44600<br>Nepal</div></div></div>
+        <div class="sh-contact-item sh-fade-up"><div class="sh-contact-icon"><i class="fa fa-phone-alt"></i></div><div><div class="sh-contact-item-title">Reservations</div><div class="sh-contact-item-val">+977 1 4271234<br>+977 98 0000 1234</div></div></div>
+        <div class="sh-contact-item sh-fade-up"><div class="sh-contact-icon"><i class="fa fa-envelope"></i></div><div><div class="sh-contact-item-title">Email Us</div><div class="sh-contact-item-val">reservations@sagarmathahotel.com<br>concierge@sagarmathahotel.com</div></div></div>
+        <div class="sh-contact-item sh-fade-up"><div class="sh-contact-icon"><i class="fa fa-clock"></i></div><div><div class="sh-contact-item-title">Concierge Hours</div><div class="sh-contact-item-val">24 Hours &middot; 7 Days a Week<br>365 Days a Year</div></div></div>
+      </div>
+      <div class="sh-fade-up">
+        <form class="sh-form" id="contactForm">
+          <div class="sh-form-row">
+            <div class="sh-form-group"><label>Full Name</label><input type="text" placeholder="Your full name"></div>
+            <div class="sh-form-group"><label>Email Address</label><input type="email" placeholder="your@email.com"></div>
+          </div>
+          <div class="sh-form-row">
+            <div class="sh-form-group"><label>Phone Number</label><input type="tel" placeholder="+1 000 000 0000"></div>
+            <div class="sh-form-group"><label>Subject</label><input type="text" placeholder="Reservation / Enquiry"></div>
+          </div>
+          <div class="sh-form-group full"><label>Your Message</label><textarea placeholder="Tell us how we can assist you..." rows="4"></textarea></div>
+          <button type="submit" class="sh-btn-primary" style="width:100%;justify-content:center;"><i class="fa fa-paper-plane"></i> Send Message</button>
+        </form>
+      </div>
+    </div>
+    <div class="sh-map-wrap sh-fade-up">
+      <div class="sh-map-label">Sagarmatha Hotel &middot; Kathmandu, Nepal</div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7059.213797551786!2d85.32607534847119!3d27.79108414226307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1744238305270!5m2!1sen!2suk" allowfullscreen="" loading="lazy" title="Sagarmatha Hotel Location"></iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="sh-footer">
+  <div class="container">
+    <div class="sh-footer-main">
+      <div>
+        <a href="index.html" class="sh-logo" style="margin-bottom:16px;">
+          <div class="sh-logo-icon">S</div>
+          <div class="sh-logo-text"><span class="sh-logo-name">Sagarmatha</span><span class="sh-logo-tagline">Hotel &amp; Resort</span></div>
+        </a>
+        <p class="sh-footer-brand-desc">A timeless sanctuary where Nepali heritage meets contemporary luxury. Offering 285 exquisite rooms, world-class dining, and unmatched Himalayan hospitality since 1966.</p>
+        <div class="sh-footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div>
+        <div class="sh-footer-col-title">Navigation</div>
+        <ul class="sh-footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="room.html">Rooms &amp; Suites</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="blog.html">Journal</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="sh-footer-col-title">Services</div>
+        <ul class="sh-footer-links">
+          <li><a href="#">Dining &amp; Cuisine</a></li>
+          <li><a href="#">Spa &amp; Wellness</a></li>
+          <li><a href="#">Fitness Centre</a></li>
+          <li><a href="#">Events &amp; Weddings</a></li>
+          <li><a href="#">Casino</a></li>
+          <li><a href="#">Airport Transfer</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="sh-footer-col-title">Newsletter</div>
+        <p style="font-size:0.84rem;color:var(--text-mid);margin-bottom:18px;line-height:1.7;">Subscribe for exclusive offers, travel inspirations, and updates from Sagarmatha Hotel.</p>
+        <div class="sh-footer-newsletter">
+          <input type="email" placeholder="Your email address">
+          <button type="button">Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <div class="sh-footer-bottom">
+      <p class="sh-footer-copy">&copy; 2025&ndash;2026 All Rights Reserved. <a href="index.html">Sagarmatha Hotel</a></p>
+      <div class="sh-footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+<script>
+window.addEventListener('load',function(){setTimeout(function(){document.getElementById('shLoader').classList.add('hidden');},1200);});
+window.addEventListener('scroll',function(){var nav=document.getElementById('shNav');if(window.scrollY>60)nav.classList.add('scrolled');else nav.classList.remove('scrolled');});
+var currentSlide=0;var slides=document.querySelectorAll('.sh-hero-slide');var indicators=document.querySelectorAll('.sh-indicator');
+function goToSlide(n){slides[currentSlide].style.opacity='0';slides[currentSlide].style.display='none';indicators[currentSlide].classList.remove('active');currentSlide=n;slides[currentSlide].style.display='block';setTimeout(function(){slides[currentSlide].style.opacity='1';},50);indicators[currentSlide].classList.add('active');}
+slides.forEach(function(s){s.style.transition='opacity 1.5s ease';});
+indicators.forEach(function(btn){btn.addEventListener('click',function(){goToSlide(parseInt(btn.dataset.slide));});});
+setInterval(function(){goToSlide((currentSlide+1)%slides.length);},6000);
+document.getElementById('menuBtn').addEventListener('click',function(){document.getElementById('mobileNav').classList.add('open');});
+document.getElementById('mobileClose').addEventListener('click',function(){document.getElementById('mobileNav').classList.remove('open');});
+$(function(){$('#checkIn,#checkOut').datepicker({format:'dd M yyyy',startDate:new Date(),autoclose:true});});
+var fadeEls=document.querySelectorAll('.sh-fade-up');var observer=new IntersectionObserver(function(entries){entries.forEach(function(entry){if(entry.isIntersecting)entry.target.classList.add('visible');});},{threshold:0.12});fadeEls.forEach(function(el){observer.observe(el);});
+var cf=document.getElementById('contactForm');if(cf){cf.addEventListener('submit',function(e){e.preventDefault();alert('Thank you! Your message has been received. Our concierge team will respond within 24 hours.');cf.reset();});}
+</script>
+</body>
+</html>
