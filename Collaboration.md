@@ -1,24 +1,36 @@
 Team Contributions
 
-= Bishal Gajmer
-- Designed and developed the Homepage and About Us pages using HTML and CSS.
-- Created the Navbar and Footer, and ensured all internal pages were properly linked.
-- Focused on UI/UX design and implemented visual effects to enhance user experience.
+Sandesh Devkota
 
+Developed the Homepage and About Us pages using HTML and CSS.
 
-= Md Nazmul Hasan
-- Designed and developed the Rooms and Gallery pages.
-- Ensured responsive design across all devices and added CSS animations for interactive elements.
-- Focused on creating a secure website structure to protect user data and improve performance.
+Created the Navbar and Footer, ensuring smooth navigation across the site.
 
+Managed internal linking between all pages for a seamless user experience.
 
-= Brijesh Yadav
-- Created the Blog and Contact pages, including implementing the Contact Form using Formspree.
-- Wrote and refined the content for various sections, especially the About and Blog pages.
-- Conducted in-depth research to ensure the content was accurate, relevant, and engaging.
+Focused on UI/UX design and added visual effects to enhance the overall look and feel.
 
+Sushil KC
 
-= Collaborative Effort
-While each of us had our own designated roles, the creation of this website was truly a team effort. We regularly communicated, brainstormed together, and supported each other throughout every stage of development. From refining layouts to troubleshooting bugs and polishing the design — we made sure every detail was carefully considered.
-We didn't just split tasks — we worked hard as a team, investing extra time and effort to make the website not only functional but also visually appealing, user-friendly, and content-rich. Our collaboration ensured that the final product felt unified and professional, reflecting the combined strength of our individual contributions.
-In the end, it was our shared commitment, teamwork, and dedication that brought the project to life.
+Developed the Rooms and Gallery pages.
+
+Ensured the website is fully responsive across all devices.
+
+Added CSS animations to improve interactivity and user engagement.
+
+Focused on website security and performance optimization.
+
+Dambar Rawal
+
+Developed the Blog and Contact pages.
+
+Implemented the Contact Form using Formspree.
+
+Wrote and refined content for the About and Blog sections.
+
+Conducted research to ensure content accuracy, relevance, and engagement.
+
+Collaborative Effort
+Although each member had specific responsibilities, this project was a true team effort. We consistently communicated, shared ideas, and supported each other throughout the development process. From improving layouts to fixing bugs and refining design details, we worked together to ensure quality at every stage.
+
+Rather than simply dividing tasks, we contributed collectively to make the website functional, visually appealing, user-friendly, and informative. Our teamwork and dedication helped us create a cohesive and professional final product that reflects the strengths of each team member.
