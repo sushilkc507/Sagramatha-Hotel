@@ -1,52 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact — Sagarmatha Hotel</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Jost:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css"><link rel="stylesheet" href="css/sagarmatha.css">
-</head>
-<body>
-<div class="sh-loader" id="shLoader"><div class="sh-loader-logo">SH</div><div class="sh-loader-bar"></div></div>
-<div class="sh-mobile-nav" id="mobileNav"><button class="sh-mobile-close" id="mobileClose"><i class="fa fa-times"></i></button><a href="index.html">Home</a><a href="about.html">About</a><a href="room.html">Rooms</a><a href="gallery.html">Gallery</a><a href="blog.html">Journal</a><a href="contact.html">Contact</a></div>
-<nav class="sh-nav scrolled"><div class="sh-nav-inner"><a href="index.html" class="sh-logo"><div class="sh-logo-icon">S</div><div class="sh-logo-text"><span class="sh-logo-name">Sagarmatha</span><span class="sh-logo-tagline">Hotel &amp; Resort — Kathmandu</span></div></a><ul class="sh-nav-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="room.html">Rooms</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="blog.html">Journal</a></li><li><a href="contact.html" class="active">Contact</a></li><li><a href="room.html" class="sh-nav-cta">Reserve Now</a></li></ul><button class="sh-hamburger" id="menuBtn"><span></span><span></span><span></span></button></div></nav>
-<div class="sh-page-banner"><img src="images/banner3.jpg" alt="Contact"><div class="sh-page-banner-overlay"></div><div class="sh-page-banner-content"><div class="sh-breadcrumb"><a href="index.html">Home</a><span class="sh-breadcrumb-sep">/</span><span>Contact</span></div><h1 class="sh-page-title">Contact <em>Us</em></h1></div></div>
-
-<section class="sh-section">
-  <div class="container">
-    <div class="sh-section-header centered sh-fade-up"><div class="sh-label" style="justify-content:center;">Get in Touch</div><h2 class="sh-section-title">We're Here to <em>Help</em></h2><div class="sh-divider centered"></div><p class="sh-section-desc centered">Whether you're planning a stay, hosting an event, or simply have a question — our concierge team is available 24/7.</p></div>
-    <div class="sh-contact-grid">
-      <div>
-        <div class="sh-contact-item sh-fade-up"><div class="sh-contact-icon"><i class="fa fa-map-marker-alt"></i></div><div><div class="sh-contact-item-title">Hotel Address</div><div class="sh-contact-item-val">Tahachal, Kathmandu 44600<br>Nepal<br><small style="color:var(--gold)">8 km from Tribhuvan International Airport</small></div></div></div>
-        <div class="sh-contact-item sh-fade-up"><div class="sh-contact-icon"><i class="fa fa-phone-alt"></i></div><div><div class="sh-contact-item-title">Reservations &amp; Enquiries</div><div class="sh-contact-item-val">+977 1 4271234<br>+977 98 0000 1234</div></div></div>
-        <div class="sh-contact-item sh-fade-up"><div class="sh-contact-icon"><i class="fa fa-envelope"></i></div><div><div class="sh-contact-item-title">Email</div><div class="sh-contact-item-val">reservations@sagarmathahotel.com<br>events@sagarmathahotel.com</div></div></div>
-        <div class="sh-contact-item sh-fade-up"><div class="sh-contact-icon"><i class="fa fa-clock"></i></div><div><div class="sh-contact-item-title">Concierge Hours</div><div class="sh-contact-item-val">24 Hours &middot; 7 Days a Week</div></div></div>
-        <div class="sh-contact-item sh-fade-up"><div class="sh-contact-icon"><i class="fa fa-plane"></i></div><div><div class="sh-contact-item-title">Airport Transfer</div><div class="sh-contact-item-val">Complimentary airport transfer available for suite bookings. Please contact our concierge to arrange.</div></div></div>
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>THE HIMALAYA HEAVEN</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <!-- Start of Async Drift Code -->
+<script>
+	"use strict";
+	
+	!function() {
+	  var t = window.driftt = window.drift = window.driftt || [];
+	  if (!t.init) {
+		if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+		t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+		t.factory = function(e) {
+		  return function() {
+			var n = Array.prototype.slice.call(arguments);
+			return n.unshift(e), t.push(n), t;
+		  };
+		}, t.methods.forEach(function(e) {
+		  t[e] = t.factory(e);
+		}), t.load = function(t) {
+		  var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+		  o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+		  var i = document.getElementsByTagName("script")[0];
+		  i.parentNode.insertBefore(o, i);
+		};
+	  }
+	}();
+	drift.SNIPPET_VERSION = '0.3.1';
+	drift.load('c3aurgtk94ca');
+	</script>
+	<!-- End of Async Drift Code -->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#"/></div>
       </div>
-      <div class="sh-fade-up">
-        <form class="sh-form" id="contactForm">
-          <div class="sh-form-row">
-            <div class="sh-form-group"><label>Full Name</label><input type="text" placeholder="Your full name" required></div>
-            <div class="sh-form-group"><label>Email Address</label><input type="email" placeholder="your@email.com" required></div>
-          </div>
-          <div class="sh-form-row">
-            <div class="sh-form-group"><label>Phone Number</label><input type="tel" placeholder="+977 000 000 0000"></div>
-            <div class="sh-form-group"><label>Type of Enquiry</label><select style="background:transparent;border:none;border-bottom:1px solid rgba(249,245,238,0.2);color:var(--cream);font-family:'Jost',sans-serif;font-size:0.9rem;padding:10px 0;width:100%;outline:none;"><option style="background:#1a1a1a">Room Reservation</option><option style="background:#1a1a1a">Event Planning</option><option style="background:#1a1a1a">Spa &amp; Wellness</option><option style="background:#1a1a1a">Dining</option><option style="background:#1a1a1a">General Enquiry</option></select></div>
-          </div>
-          <div class="sh-form-group full"><label>Your Message</label><textarea placeholder="Tell us how we can assist you..." rows="5"></textarea></div>
-          <button type="submit" class="sh-btn-primary" style="width:100%;justify-content:center;"><i class="fa fa-paper-plane"></i> Send Message</button>
-        </form>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="index.html"><img src="images/logo-resized-for-website.png" alt="#" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample04">
+                           <ul class="navbar-nav mr-auto">
+                              <li class="nav-item ">
+                                 <a class="nav-link" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="about.html">About</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="room.html">Our room</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="gallery.html">Gallery</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="blog.html">Blog</a>
+                              </li>
+                              <li class="nav-item active">
+                                 <a class="nav-link" href="contact.html">Contact Us</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+     <div class="back_re">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="title">
+                      <h2>Contact Us To THE HIMALAYA HEAVEN</h2>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-    <div class="sh-map-wrap sh-fade-up">
-      <div class="sh-map-label">Sagarmatha Hotel &middot; Kathmandu, Nepal</div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7059.213797551786!2d85.32607534847119!3d27.79108414226307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1744238305270!5m2!1sen!2suk" allowfullscreen="" loading="lazy" title="Map"></iframe>
-    </div>
-  </div>
-</section>
+      <!--  contact -->
+      <div class="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Contact Us</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <form id="request" class="main_form">
+                     <div class="row">
+                        <div class="col-md-12 ">
+                           <input class="contactus" placeholder="Name" type="type" name="Name"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Email" type="type" name="Email"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
+                        </div>
+                        <div class="col-md-12">
+                           <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message</textarea>
+                        </div>
+                        <div class="col-md-12">
+                           <button class="send_btn">Send</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+               <div class="col-md-6">
+                  <div class="map_main">
+                     <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7059.213797551786!2d85.32607534847119!3d27.79108414226307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1744238305270!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end contact -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class=" col-md-4">
+                     <h3>Contact US</h3>
+                     <ul class="conta">
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i> Tokha Marg, Kathmandu 44600, Nepal</li>
+                        <li><i class="fa fa-mobile" aria-hidden="true"></i> +97 6798436272</li>
+                        <li> <i class="fa fa-envelope" aria-hidden="true"></i><a href="#"> himalayaheaven7@gmail.com</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-4">
+                     <h3>Menu Link</h3>
+                     <ul class="link_menu">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="about.html"> about</a></li>
+                        <li><a href="room.html">Our Room</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-4">
+                     <h3>News letter</h3>
+                     <form class="bottom_form">
+                        <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
+                        <button class="sub_btn">subscribe</button>
+                     </form>
+                     <ul class="social_icon">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-10 offset-md-1">
+                        
+                        <p>
+                        © 2025-2026 All Rights Reserved. Design by <a href="#"> Bishal Gajmer</a>
+                        <br><br>
+                        Distributed by <a href="#" target="_blank">THE HIMALAYA HEAVEN</a>
+                        </p>
 
-<footer class="sh-footer"><div class="container"><div class="sh-footer-main"><div><a href="index.html" class="sh-logo" style="margin-bottom:16px;"><div class="sh-logo-icon">S</div><div class="sh-logo-text"><span class="sh-logo-name">Sagarmatha</span><span class="sh-logo-tagline">Hotel &amp; Resort</span></div></a><p class="sh-footer-brand-desc">A timeless sanctuary where Nepali heritage meets contemporary luxury, since 1966.</p></div><div><div class="sh-footer-col-title">Navigation</div><ul class="sh-footer-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="room.html">Rooms</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="blog.html">Journal</a></li><li><a href="contact.html">Contact</a></li></ul></div><div><div class="sh-footer-col-title">Services</div><ul class="sh-footer-links"><li><a href="#">Dining</a></li><li><a href="#">Spa</a></li><li><a href="#">Fitness</a></li><li><a href="#">Events</a></li></ul></div><div><div class="sh-footer-col-title">Newsletter</div><div class="sh-footer-newsletter"><input type="email" placeholder="Your email address"><button type="button">Subscribe</button></div></div></div><div class="sh-footer-bottom"><p class="sh-footer-copy">&copy; 2025&ndash;2026 All Rights Reserved. <a href="index.html">Sagarmatha Hotel</a></p><div class="sh-footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div></div></div></footer>
-<script src="js/jquery.min.js"></script><script src="js/bootstrap.bundle.min.js"></script>
-<script>window.addEventListener('load',function(){setTimeout(function(){document.getElementById('shLoader').classList.add('hidden');},1200);});document.getElementById('menuBtn').addEventListener('click',function(){document.getElementById('mobileNav').classList.add('open');});document.getElementById('mobileClose').addEventListener('click',function(){document.getElementById('mobileNav').classList.remove('open');});var fadeEls=document.querySelectorAll('.sh-fade-up');var observer=new IntersectionObserver(function(entries){entries.forEach(function(entry){if(entry.isIntersecting)entry.target.classList.add('visible');});},{threshold:0.12});fadeEls.forEach(function(el){observer.observe(el);});var cf=document.getElementById('contactForm');if(cf){cf.addEventListener('submit',function(e){e.preventDefault();alert('Thank you! Your message has been received. Our team will respond within 24 hours.');cf.reset();});}</script>
-</body></html>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
